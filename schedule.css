@@ -1,0 +1,22 @@
+
+table{
+  text-align: left;
+}
+
+tr th {
+    width: 100px;
+    font-weight: bold;
+    text-decoration: underline
+}
+
+
+
+/* Color Palette adapted from:  http://www.colourlovers.com/palette/4451668/Quilting_Stars*/
+td:nth-child(even) {background: #25BBB2}
+td:nth-child(odd) {
+  color: #CD0E0E;
+  background: #92986F}
+
+td:hover{
+  color: #F0F0F0;
+  background: #E16F7C}
